@@ -310,7 +310,7 @@ House rennovations!
 
 ![alt text](photos/2023_08_house_rennovations__backyard_p_01.jpg)
 *Caption: We did most of the demo work ourselves, and lived and 
-worked in a single room while the contractor worked on the rest of the house. Made our 300 sqft studio aparment in Stanford feel like luxury.*
+worked in a single room while the contractor worked on the rest of the house. Made our 300 sqft studio apartment in Stanford feel like luxury.*
 
 ![alt text](photos/2023_08_house_rennovations_02.jpg)
 *Caption: Unfortunately, the rennovations were pretty hard on 
@@ -459,7 +459,7 @@ We flew down to Miami to celebrate Ben's (Brian's brother) graduation from denta
 
 ![alt text](photos/2025_05_ben_graduation_01.JPG)
 *Caption: We splurged a bit and got an ocean-front hotel room while we
-were there. Had to live up to the dinkwad steriotype, of course.*
+were there. Had to live up to the dinkwad stereotype, of course.*
 
 # June 2025
 After a couple of fancy international wedding anniversaries, we took it chill this year and spent a long weekend camping with our dogs in Shannendoah National Park.
