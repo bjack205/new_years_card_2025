@@ -43,16 +43,19 @@ Here's the last 4 years by the numbers:
 - National Parks Visited: 6
 
 Alyssa worked for a year at a metaverse startup, but started looking for new opportunities when the paychecks kept getting delayed. She worked for 2 years at Compliancy Group as a Senior Software Engineer, before being recruited by a startup recently acquired by Western Governor's University.
-She's still loving her career in software engineering, especialy at her current job where she's been able to focus on transitioning to DevOps and Cloud Infrastructure. Outside of work, she's gotten a lot more into running, picked up video editing, and is still crazy about dog training.
+She's still loving her career in software engineering, especially at her current job where she's been able to focus on transitioning to DevOps and Cloud Infrastructure. Outside of work, she's gotten a lot more into running, picked up video editing, and is still crazy about dog training.
 
-Brian graduated with his PhD in Robotics from Carnegie Mellon University in 2022, marking the end of an era us both. After weighing a few different options, he took a leap on a startup called Albedo, a young 20-person startup building low-flying 
+Brian graduated with his PhD in Robotics from Carnegie Mellon University in 2022, marking the end of an for era us both. After weighing a few different options, he took a leap on a startup called Albedo, a young 20-person startup building low-flying 
 satellites to take insanely good satellite images. They launched
 their first satellite this year in March 2025. Brian got recruited
 by NVIDIA and made the difficult decision to leave Albedo right after their first launch, and has been working on developing software for robotics at NVIDIA since March. Don't worry, he's still a nerd, and will talk your ear off about motion planning for robots and optimization-based control for hours. After convincing Alyssa to get another puppy, Brian has spent a lot of time this year training with their new puppy Tolkien to do search and rescue, and should certify with one of the national associations for working dogs in early 2026.
 
 We still live in Pittsburgh, PA, in the small home we bought when we moved here in 2020. We've grown to love Pittsburgh a lot, in big part thanks to the friends we've made here. We've had a lot of incredible experiences over the last 4 years, but are most grateful for the time we've been able to spend with each other, with our dogs, and with friends and family. With the new year,
 we're excited and a little nervous at what's looking to be a year
-of adventure, changes, and uncertainty. We wish you all the very best and are grateful to have you as a part of our life's story.
+of adventure, changes, and uncertainty.
+We hope 2026 brings you joyful moments, the accomplishment of challenges overcome, and the meaning that comes through investing
+yourself in the relationships you value most.
+
 
 # FAQ
 
@@ -84,7 +87,7 @@ A: Brian: Dolomites. Alyssa: Dolomites.
 Q: Favorite meal?  
 A: Brian: Rifugio Fuciade, Dolomites. Alyssa: Poke, any time, any place.
 
-Q: Favorte book?
+Q: Favorite book?
 A: Brian: Meditations for Mortals. Alyssa: Educated.
 
 # Places We've Been
@@ -176,13 +179,13 @@ we were born in the wrong country. To say it left an impression is an understate
 
 ![alt text](photos/2022_12_new_zealand_06.jpg)
 *Caption: Hiking in New Zealand is just better. Beautiful views, well-maintained
-steel ladders to climb, and excellent bathrooms." 
+steel ladders to climb, and excellent bathrooms.* 
 
 ![alt text](photos/2022_12_new_zealand_12.jpg)
-*Caption: Sunset in Cormandel. Brian trying to be a landscape photographer."
+*Caption: Sunset in Cormandel. Brian trying to be a landscape photographer.*
 
 ![alt text](photos/2022_12_new_zealand_10.jpg)
-*Caption: Sea kayaking in the Cormandel pensinsula. Another reason NZ is great: the guides brought cookies and made the group fresh tea and coffee on the beach.*
+*Caption: Sea kayaking in the Cormandel peninsula. Another reason NZ is great: the guides brought cookies and made the group fresh tea and coffee on the beach.*
 
 ![alt text](photos/2022_12_new_zealand_02.jpg)
 *Caption: Hobbiton! Honestly, the food might have been the best part.*
@@ -220,7 +223,7 @@ by a 'gator.
 *Caption: River posing dramatically in the Everglades.*
 
 ![alt text](photos/2023_02_miami_03.jpg)
-*Caption: River looking for Brian after he left the hotel room to bike to a WeWork for the day."
+*Caption: River looking for Brian after he left the hotel room to bike to a WeWork for the day.*
 
 ![alt text](photos/2023_02_miami_04.jpg)
 *Caption: Uncle Brian trying to be a good Uncle, mostly by not dropping the baby in the ocean.*
@@ -257,7 +260,7 @@ of the endless nerdy discussions with friends about robots,
 optimization, and scientific computing.*
 
 # June 2023
-5th Wedding Anniversay: Rome! We piggybacked off of Brian's work
+5th Wedding Anniversary: Rome! We piggybacked off of Brian's work
 trip to visit Rome and the Almafi Coast.
 
 
@@ -307,8 +310,7 @@ House rennovations!
 
 ![alt text](photos/2023_08_house_rennovations__backyard_p_01.jpg)
 *Caption: We did most of the demo work ourselves, and lived and 
-worked in a single room while the contractor worked on the rest of the house. Made our 300 sqrt studio aparment in Stanford feel like luxury.*
-
+worked in a single room while the contractor worked on the rest of the house. Made our 300 sqft studio aparment in Stanford feel like luxury.*
 
 ![alt text](photos/2023_08_house_rennovations_02.jpg)
 *Caption: Unfortunately, the rennovations were pretty hard on 
@@ -318,7 +320,7 @@ River. She really missed all the soft places to lay down, so much that she found
 *Caption: While the contractors worked on our house, Brian made progress on our backyard (which was a jungle of weeds and thorns when we bought it in 2020). We got to enjoy hosting a few evening parties with friends while the house was chaos.*
 
 # Oct 2023
-Brian biked 335 miles from Washington D.C. to Pittsburgh along the C&O Canal and the Great Allgeheny Passage (which passes by our house).
+Brian biked 335 miles from Washington D.C. to Pittsburgh along the C&O Canal and the Great Allegheny Passage (which passes by our house).
 
 ![alt text](photos/2023_10_gap_03.jpg)
 *Caption: Mile 0 marker in D.C.*
@@ -333,7 +335,7 @@ Brian biked 335 miles from Washington D.C. to Pittsburgh along the C&O Canal and
 *Caption: It was this trip that made Brian want to buy a real gravel bike. Retrofitting his road bike to work for this trip required a bit of creativity.*
 
 ![alt text](photos/2023_10_gap_05.jpg)
-*Caption: Alyssa and River met us at Point State Park in Pittsburgh to celebrate with us. For you sports fans, that's the Steelers' statium behind us.*
+*Caption: Alyssa and River met us at Point State Park in Pittsburgh to celebrate with us. For you sports fans, that's the Steelers' stadium behind us.*
 
 # November 2023
 We drove out to Tucson for Thanksgiving, stopping in Denver for a week so Brian could work on spinny space hardware stuff. While
@@ -358,7 +360,7 @@ Alyssa completed her first marathon!
 *Caption: It didn't turn out as well as she hoped, but she pushed through and finished it! Turns out hyponatremia is a thing.*
 
 # June 2024
-Our favorite vacation to-date: the Dolomites. We hiked about 50 miles over 5 days, which was a perfect pace for some absolutely fanstastic hiking, while having enough time to stop for breakfast, lunch, and dinner in the mountain rifugios for some top-notch food. Plus sleeping in a real bed (even if surrounded by snoring Italians) is hard to beat.
+Our favorite vacation to-date: the Dolomites. We hiked about 50 miles over 5 days, which was a perfect pace for some absolutely fantastic hiking, while having enough time to stop for breakfast, lunch, and dinner in the mountain rifugios for some top-notch food. Plus sleeping in a real bed (even if surrounded by snoring Italians) is hard to beat.
 
 ![alt text](photos/2024_06_dolomites_01.jpg)
 *Caption: Why hike to the top when you can take a gondola? Make sure you run or you won't catch the car (no joke).*
@@ -394,7 +396,7 @@ change plans a few times between the rain and the late-season snow.*
 *Caption: Probably some of the best food we've ever had. Add in the fact you're eating it in the middle of majestic mountains. Heaven.*
 
 ![alt text](photos/2024_06_dolomites_10.jpg)
-*Caption: Fun fact: the Dolomites cross the border of Tyrol, an independent German-speaking province of Italy that used to be part of the Austo-Hungarian Empire prior to WWI. So we started the hike in a quaint German-esque town, and saying "danka* over a plate of dumplings, and ended the hike saying "grazie" over pasta. The blend of the two cultures is just one of the things that makes this area so unique.*
+*Caption: Fun fact: the Dolomites cross the border of Tyrol, an independent German-speaking province of Italy that used to be part of the Austro-Hungarian Empire prior to WWI. So we started the hike in a quaint German-esque town, and saying "danke" over a plate of dumplings, and ended the hike saying "grazie" over pasta. The blend of the two cultures is just one of the things that makes this area so unique.*
 
 ![alt text](photos/2024_07_venice_01.jpg)
 *Caption: We ended our trip in Venice. Which was cool, but underwhelming after what were seriously some of the best vacation days we've ever had.*
@@ -421,7 +423,7 @@ visiting fancy chateaus and eating fancy food.*
 *Caption: We also had the great fortune of meeting up with Andrew and Jamie. Andrew and I were both on the software team at Albedo, and this trip was a much-needed break from the gruelling hours getting the satellite ready for launch.*
 
 ![alt text](photos/2024_10_paris_05.jpg)
-*Caption: The obligatory couple photo in front of the Eiffel Tour.*
+*Caption: The obligatory couple photo in front of the Eiffel Tower.*
 
 # November 2024
 New puppy!! Meet Tolkien the Nova Scotia Duck Tolling Retriever. 
@@ -457,7 +459,7 @@ We flew down to Miami to celebrate Ben's (Brian's brother) graduation from denta
 
 ![alt text](photos/2025_05_ben_graduation_01.JPG)
 *Caption: We splurged a bit and got an ocean-front hotel room while we
-were there. Had to live up to the dinkwad steriotype, of course."
+were there. Had to live up to the dinkwad steriotype, of course.*
 
 # June 2025
 After a couple of fancy international wedding anniversaries, we took it chill this year and spent a long weekend camping with our dogs in Shannendoah National Park.
@@ -480,7 +482,7 @@ it up.
 
 
 ![alt text](photos/2025_08_ny_01.JPG)
-*Caption: We're wierd. It's fine.*
+*Caption: We're weird. It's fine.*
 
 ![alt text](photos/2025_08_ny_02.JPG)
 *Caption: Again, not claiming to be normal people.*
