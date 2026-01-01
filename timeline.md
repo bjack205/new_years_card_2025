@@ -29,26 +29,89 @@
 - Sep 2025: SAR Seminar
 - Nov 2025: Barcelona
 
+# Summary
+Dear friends and family. Sorry we haven't sent out an update for 4 years. Turns out a lot has happened since 2021! We've included lots
+of photos and juicy details for anyone with time to kill (looking at you Grandma) but will keep it short and sweet here. 
 
-# Places
-- Pittsburgh
-- Belgium
-- Rome
-- Naples
-- Tucson
-- Bay Area
-- White Sands
-- St Louis
-- Erie
-- Denver
-- Miami
-- Show Low
-- Paris
-- Dolomites
-- Venice
-- Olympic NP
-- New York 
-- Barcelona
+Here's the last 4 years by the numbers:
+- Job changes: 4
+- New dogs: 1
+- Children born: 0
+- Countries visited: 6
+- Degrees completed: 1
+- Marathons run: 1
+- National Parks Visited: 6
+
+Alyssa worked for a year at a metaverse startup, but started looking for new opportunities when the paychecks kept getting delayed. She worked for 2 years at Compliancy Group as a Senior Software Engineer, before being recruited by a startup recently acquired by Western Governor's University.
+She's still loving her career in software engineering, especialy at her current job where she's been able to focus on transitioning to DevOps and Cloud Infrastructure. Outside of work, she's gotten a lot more into running, picked up video editing, and is still crazy about dog training.
+
+Brian graduated with his PhD in Robotics from Carnegie Mellon University in 2022, marking the end of an era us both. After weighing a few different options, he took a leap on a startup called Albedo, a young 20-person startup building low-flying 
+satellites to take insanely good satellite images. They launched
+their first satellite this year in March 2025. Brian got recruited
+by NVIDIA and made the difficult decision to leave Albedo right after their first launch, and has been working on developing software for robotics at NVIDIA since March. Don't worry, he's still a nerd, and will talk your ear off about motion planning for robots and optimization-based control for hours. After convincing Alyssa to get another puppy, Brian has spent a lot of time this year training with their new puppy Tolkien to do search and rescue, and should certify with one of the national associations for working dogs in early 2026.
+
+We still live in Pittsburgh, PA, in the small home we bought when we moved here in 2020. We've grown to love Pittsburgh a lot, in big part thanks to the friends we've made here. We've had a lot of incredible experiences over the last 4 years, but are most grateful for the time we've been able to spend with each other, with our dogs, and with friends and family. With the new year,
+we're excited and a little nervous at what's looking to be a year
+of adventure, changes, and uncertainty. We wish you all the very best and are grateful to have you as a part of our life's story.
+
+# FAQ
+
+## For the Grandparents
+
+Q: Do you have any children?  
+A: No.
+
+Q: Do you want to have children?  
+A: Maybe.
+
+Q: Why haven't you had kids yet?  
+A: Not your business.
+
+## For Everyone Else
+
+Q: Why type of dog is River?  
+A: Sassy b!t@h. Also Golden Irish (half Golden Retriever, half Irish Setter).
+
+Q: What type of dog is Tolkien?  
+A: Nova Scotia Duck Tolling Retriever
+
+Q: Is that a real breed?  
+A: Yes
+
+Q: Favorite place you've visited in the last 4 years?  
+A: Brian: Dolomites. Alyssa: Dolomites.
+
+Q: Favorite meal?  
+A: Brian: Rifugio Fuciade, Dolomites. Alyssa: Poke, any time, any place.
+
+Q: Favorte book?
+A: Brian: Meditations for Mortals. Alyssa: Educated.
+
+# Places We've Been
+- Pittsburgh, PA
+- Erie, PA
+- Bay Area, CA
+- St Louis, MO
+- Denver, CO
+- Miami, FL
+- Show Low, AZ
+- Tucson, AZ
+- New York, NY
+- New Zealand
+- White Sands National Park, NM
+- Olympic National Park, WA
+- Shannendoah National Park, VA
+- Biscayne Bay National Park, FL
+- Everglades National Park, FL
+- Cuyahoga Vally National Park, OH
+- Niagara Falls, Canada
+- Paris, France
+- Brussels, Belgium
+- Rome, Italy
+- Naples, Italy
+- Dolomites, Italy
+- Venice, Italy
+- Barcelona, Spain
 
 
 ## June 2022
@@ -278,6 +341,252 @@ in Tucson, he checked off two goals for this 30s: ride a century, and compete in
 
 ![alt text](photos/2023_11_tour_de_tucson_01.jpg)
 *Caption: Fun fact: the Tour de Tucson is one of the largest road bike events in the United States, with about 10,000 riders.*
+
+# February 2024
+Las Vegas again! This time we upgraded in the Cosmo. Again had a great time with Tara and Evan!
+
+![alt text](photos/2024_02_las_vegas_01.jpg)
+*Caption: Sharks in the desert. Of course.*
+
+![alt text](photos/2024_02_las_vegas_02.jpg)
+*Caption: Despite having very low expectations the first time, Brian has reluctantly agreed that Vegas is actually kinda fun.*
+
+# May 2024
+Alyssa completed her first marathon!
+
+![alt text](photos/2024_05_marathon_01.jpg)
+*Caption: It didn't turn out as well as she hoped, but she pushed through and finished it! Turns out hyponatremia is a thing.*
+
+# June 2024
+Our favorite vacation to-date: the Dolomites. We hiked about 50 miles over 5 days, which was a perfect pace for some absolutely fanstastic hiking, while having enough time to stop for breakfast, lunch, and dinner in the mountain rifugios for some top-notch food. Plus sleeping in a real bed (even if surrounded by snoring Italians) is hard to beat.
+
+![alt text](photos/2024_06_dolomites_01.jpg)
+*Caption: Why hike to the top when you can take a gondola? Make sure you run or you won't catch the car (no joke).*
+
+![alt text](photos/2024_06_dolomites_02.jpg)
+*Caption: Just one of so many breath-taking views.*
+
+![alt text](photos/2024_06_dolomites_03.jpg)
+*Caption: Hard to beat the feeling of drinking a fantastic espresso in the middle of the mountains.*
+
+![alt text](photos/2024_06_dolomites_04.jpg)
+*Caption: Our first true rifugio we stayed in. We ended up chatting the evening away with some middle-aged German dads. They may or may not have convinced Brian to take shots of fermented flower root...*
+
+![alt text](photos/2024_06_dolomites_05.jpg)
+*Caption: Hike? Or take a scenic gondola ride to the top? A younger Brian would have scoffed at the idea of taking the gondola. 
+But an older, married, Brian thinks
+the gondola is a great idea. It is vacation, after all.*
+
+![alt text](photos/2024_06_dolomites_06.jpg)
+*Caption: This trip was also a piggy-back off another work trip. Brian
+got to visit Paris for the first time while visiting a supplier for some
+high-end space hardware.*
+
+![alt text](photos/2024_06_dolomites_07.jpg)
+*Caption: When we showed up, the weather showed rain and thunderstorms
+every day. Fortunately this was pessimistic, although we did have to 
+change plans a few times between the rain and the late-season snow.*
+
+![alt text](photos/2024_06_dolomites_08.jpg)
+*Caption: Did Brian wear the same shirt ever day? Maybe. But you don't have many options when living out of a 22L pack for 6 days.*
+
+![alt text](photos/2024_06_dolomites_09.jpg)
+*Caption: Probably some of the best food we've ever had. Add in the fact you're eating it in the middle of majestic mountains. Heaven.*
+
+![alt text](photos/2024_06_dolomites_10.jpg)
+*Caption: Fun fact: the Dolomites cross the border of Tyrol, an independent German-speaking province of Italy that used to be part of the Austo-Hungarian Empire prior to WWI. So we started the hike in a quaint German-esque town, and saying "danka* over a plate of dumplings, and ended the hike saying "grazie" over pasta. The blend of the two cultures is just one of the things that makes this area so unique.*
+
+![alt text](photos/2024_07_venice_01.jpg)
+*Caption: We ended our trip in Venice. Which was cool, but underwhelming after what were seriously some of the best vacation days we've ever had.*
+
+# October 2024
+For Alyssa's birthday, she really wanted to do Disneyland, Paris. So she got her wish. Only partly kidding, but we did celebrate her 29th 
+birthday in Disneyland Paris with some of our best friends. We finally
+convinced Tim and Christa to do a trip with us, and we had an amazing 
+time! And meeting up with Chase and Catrina for a few days made it even
+better. We're so grateful for amazing friends who put up with us.
+
+![alt text](photos/2024_10_paris_01.jpg)
+*Caption: *
+
+![alt text](photos/2024_10_paris_02.jpg)
+*Caption: Highlight of our Disneyland Paris experience: having done pretty much all the rides since it was a slow, dreary day, we ended up on Autopia (you know, the one where you sit in a tiny car and go around a track), only to be surprised by a torrential downpour. Sitting in a plastic bucket on wheels. Which stopped. Because of the rain. We gave
+up after that and took the train back to the city for some cheaper, better food and hot chocolate.*
+
+![alt text](photos/2024_10_paris_03.jpg)
+*Caption: We spent a few days in the Loire Valley with Tim and Christa,
+visiting fancy chateaus and eating fancy food.*
+
+![alt text](photos/2024_10_paris_04.jpg)
+*Caption: We also had the great fortune of meeting up with Andrew and Jamie. Andrew and I were both on the software team at Albedo, and this trip was a much-needed break from the gruelling hours getting the satellite ready for launch.*
+
+![alt text](photos/2024_10_paris_05.jpg)
+*Caption: The obligatory couple photo in front of the Eiffel Tour.*
+
+# November 2024
+New puppy!! Meet Tolkien the Nova Scotia Duck Tolling Retriever. 
+We've wanted a Toller for years, and after Brian promised to be the
+dog-dad to our new puppy, we finally decided to give River a sibling.
+
+![alt text](photos/2024_11_tolkien_01.jpg)
+*Caption: Don't let the cutness fool you: he screamed most of the car ride home.*
+
+![alt text](photos/2024_11_tolkien_02.jpg)
+*Caption: Brian and his fluff ball.*
+
+![alt text](photos/2024_11_tolkien_03.jpg)
+*Caption: While socializing him, we were stopped more than once in a store by someone saying "oh my goodness, I thought that was a stuffed animal!" Because yes, a grown man is more likely to walk around stores carrying a stuffed animal puppy than a real puppy.*
+
+![alt text](photos/2024_11_tolkien_04.jpg)
+*Caption: Tolkien loves sleeping on pillows. Only slightly spoiled.* 
+
+# March 2025
+In March, Brian left Albedo to join NVIDIA, but negotiated to stay with
+Albedo through the launch of their first satellite, shown on top of 
+SpaceX's Transporter 13 below. Alyssa is grateful to NVIDIA for giving
+her husband back to her.
+
+![alt text](photos/2025_03_launch.jpg)
+
+# May 2025
+We flew down to Miami to celebrate Ben's (Brian's brother) graduation from dental school.
+
+
+![alt text](photos/2025_05_ben_graduation_02.JPG)
+*Caption: Now we have two "Dr. Jackson's" in the family.*
+
+![alt text](photos/2025_05_ben_graduation_01.JPG)
+*Caption: We splurged a bit and got an ocean-front hotel room while we
+were there. Had to live up to the dinkwad steriotype, of course."
+
+# June 2025
+After a couple of fancy international wedding anniversaries, we took it chill this year and spent a long weekend camping with our dogs in Shannendoah National Park.
+
+![alt text](photos/2025_06_shannendoah_01.JPG)
+*Caption: Tolkien's first camping trip.*
+
+![alt text](photos/2025_06_shannendoah_02.JPG)
+*Caption: Alyssa and her pups enjoying a night in the "Postcard Cabin"
+we got at the end of our trip.*
+
+![alt text](photos/2025_06_shannendoah_03.JPG)
+*Caption: After a long warming-up period, River has accepted Tolkien and frequently shows her love by pinning him to the ground by his neck.*
+
+# August 2025
+After an embarassingly long time of living on the East Coast without 
+visiting the Big Apple, we finally made it to New York City! We skipped
+Vegas the year and did an East Coast vacation with Tara and Evan to mix
+it up. 
+
+
+![alt text](photos/2025_08_ny_01.JPG)
+*Caption: We're wierd. It's fine.*
+
+![alt text](photos/2025_08_ny_02.JPG)
+*Caption: Again, not claiming to be normal people.*
+
+![alt text](photos/2025_08_ny_03.JPG)
+*Caption: A failed attempt at being semi-normal.*
+
+# August 2025
+Brian took a trip with Craig, one of his best friends from Stanford,
+out to Olympic National Park. Lots of great views, fantastic conversation, and peak bagging.
+
+![alt text](photos/2025_08_olympic_01.JPG)
+*Caption: While the sleep is always sub-par, the sites while backpacking are always the best.*
+
+![alt text](photos/2025_08_olympic_02.JPG)
+*Caption: We camped next to a mountain lake, which we had entirely to 
+ourselves.*
+
+![alt text](photos/2025_08_olympic_03.JPG)
+*Caption: A huge thanks to Craig for making this trip happen.*
+
+![alt text](photos/2025_08_olympic_04.JPG)
+*Caption: Brian was very happy to scratch the ol' peak-bagging itch, 
+which is much harder to scratch living on the East Coast.*
+
+# September 2025
+One of Brian's primary focuses for 2025 was training with Tolkien to do
+search and rescue (finding lost people in the woods). They're almost 
+certified (it usually takes about 1.5-2 years), and Tolkien absolutely
+loves it, and is a natural at it. We went as a family to 3-day seminar
+where our dog-training nerdiness was on full display. Alyssa says this 
+was her favorite weekend of the year.
+
+![alt text](photos/2025_09_sar_seminar_01.jpg)
+*Caption: A rare action shot of Tolkien working with Brian. Tolkien is
+absolutely obsessed with fetch and works for hours just to play for a few minutes at the end of a search.*
+
+
+# October 2025
+As a final wrap on 2025, we planned a last-minute trip to Barcelona for a long weekend. 
+
+![alt text](photos/2025_11_barcelona_01.jpg)
+*Caption: We booked a sunset sailboat cruise. Turned out to be a bit choppy and cold, but no-one got thrown overboard so it was all
+good.*
+
+![alt text](photos/2025_11_barcelona_02.JPG)
+*Caption: Alyssa, wondering how she got so lucky to marry a guy like Brian who takes her travelling to such fun places (written, of course, by Brian).*
+
+![alt text](photos/2025_11_barcelona_03.JPG)
+*Caption: Thanks to the many hotel nights Brian accrued while travelling for Albedo, we got upgraded to a ocean-view suite. It was nice, but the overly-attentive housekeeping bordered on creepy.*
+
+![alt text](photos/2025_11_barcelona_04.JPG)
+*Caption: We're not really beach people, but that doesn't mean we don't enjoy a good stroll on the boardwalk.*
+
+
+
+
+# Doggie Photo Dump
+
+## River
+
+![alt text](photos/river_01.jpg)
+*Caption: "Is this a flattering angle?"*
+
+![alt text](photos/river_02.jpg)
+*Caption: "I wish I had a more comfortable life."*
+
+![alt text](photos/river_04.jpg)
+*Caption: "My parents don't treat me good enough."*
+
+![alt text](photos/river_05.jpg)
+*Caption: "I wuv the forest."*
+
+![alt text](photos/river_06.jpg)
+*Caption: "Can you pedal faster? I can swim faster than this..."*
+
+## Tolkien
+
+![alt text](photos/tolkien_01.JPG)
+*Caption: Tolkien enjoying his ball time after finding someone.*
+
+![alt text](photos/tolkien_02.JPG)
+*Caption: "Can we get off this boat and get to work already?"*
+
+![alt text](photos/tolkien_03.jpg)
+*Caption: "'Dis pup cup is da most delicious thing I have tasted  my whole life."*
+
+![alt text](photos/tolkien_05.JPG)
+*Caption: "Can we play fetch?"*
+
+![alt text](photos/tolkien_06.JPG)
+*Caption: "Stop working. It's fetch time."*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
