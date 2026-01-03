@@ -1,28 +1,32 @@
 import timelineEvents from './timelineEvents.ts';
 import React from 'react';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { useRef } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { useRef, useMemo } from 'react';
+import * as THREE from 'three';
+
+// Pure function to create initial snowflake data
+function createSnowflakes(count: number) {
+  const flakes = [];
+  for (let i = 0; i < count; i++) {
+    flakes.push({
+      x: (Math.random() - 0.5) * 20,
+      y: Math.random() * 18 - 3,
+      z: (Math.random() - 0.5) * 20,
+      speed: Math.random() * 0.01 + 0.005, // slower fall
+      size: Math.random() * 0.13 + 0.07,
+      rotation: Math.random() * Math.PI * 2,
+      rotSpeed: (Math.random() - 0.5) * 0.02,
+      type: 0,
+    });
+  }
+  return flakes;
+}
 
 // Simple snow effect for Three.js background
 function Snowfall({ count = 120 }) {
-  const snowflakes = React.useMemo(() => {
-    const flakes = [];
-    for (let i = 0; i < count; i++) {
-      flakes.push({
-        x: (Math.random() - 0.5) * 20,
-        y: Math.random() * 18 - 3,
-        z: (Math.random() - 0.5) * 20,
-        speed: Math.random() * 0.01 + 0.005, // slower fall
-        size: Math.random() * 0.13 + 0.07,
-        rotation: Math.random() * Math.PI * 2,
-        rotSpeed: (Math.random() - 0.5) * 0.02,
-        type: 0,
-      });
-    }
-    return flakes;
-  }, [count]);
+  const snowflakes = useMemo(() => createSnowflakes(count), [count]);
 
-  const meshRefs = useRef([]);
+  const meshRefs = useRef<(THREE.Group | null)[]>([]);
   
   useFrame(() => {
     // Update snowflake positions - pure physics, no rotation interference
@@ -44,7 +48,7 @@ function Snowfall({ count = 120 }) {
   });
 
   // Three simple snowflake shapes
-  function SnowflakeShape({ size, type, meshRef }) {
+  function SnowflakeShape({ size, meshRef }: { size: number; meshRef: (ref: THREE.Group | null) => void }) {
     // Only classic 6-pointed
     return (
       <group ref={meshRef}>
@@ -61,7 +65,7 @@ function Snowfall({ count = 120 }) {
   return (
     <>
       {snowflakes.map((flake, i) => (
-        <SnowflakeShape key={i} size={flake.size} type={flake.type} meshRef={el => meshRefs.current[i] = el} />
+        <SnowflakeShape key={i} size={flake.size} meshRef={(el: THREE.Group | null) => meshRefs.current[i] = el} />
       ))}
     </>
   );
@@ -159,16 +163,16 @@ function TimelineBlurb({
   }
   return (
     <div
-      className={`relative flex flex-row items-start w-full max-w-[350px] md:max-w-[400px] space-x-2 md:space-x-1 py-2 md:py-3 bg-white/[0.18] rounded-[12px] shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-[12px] border border-white/[0.28] p-2 cursor-pointer hover:bg-white/[0.25] transition-all duration-200 group`}
+      className={`relative flex flex-row items-start w-full max-w-87.5 md:max-w-100 space-x-2 md:space-x-1 py-2 md:py-3 bg-white/18 rounded-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-md border border-white/[0.28] p-2 cursor-pointer hover:bg-white/25 transition-all duration-200 group`}
       onClick={onClick}
     >
       <img
         src={images[0]}
         alt={`Slide 1`}
-        className="w-[80px] md:w-[100px] h-[80px] md:h-[100px] rounded-sm object-center object-cover flex-shrink-0"
+        className="w-20 md:w-25 h-20 md:h-25 rounded-sm object-center object-cover shrink-0"
         style={{  boxShadow: '0 2px 12px rgba(0,0,0,0.12)'}}
       />
-      <div className="flex flex-col space-y-[2px] flex-1 min-w-0">
+      <div className="flex flex-col space-y-0.5 flex-1 min-w-0">
         <p className="text-white text-xs md:text-[14px] font-bold px-1 md:px-2 uppercase">{formatMonthYear(date)}</p>
         <p className={`text-xs md:text-sm text-left px-1 md:px-2 text-white m-0 line-clamp-3 ${!isLeft ? ' my-0' : ''}`}>
           {blurb}
@@ -323,7 +327,7 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
         
       <div className="relative flex flex-col items-center py-6 md:py-8 px-4 md:px-0">
         {/* Timeline vertical line - positioned behind content */}
-        <div className="absolute left-[48px] -translate-x-1/2 md:left-1/2 md:-translate-x-1/2 w-1 bg-white shadow-[0_0_16px_4px_#fff] top-0 bottom-0" />
+        <div className="absolute left-12 -translate-x-1/2 md:left-1/2 md:-translate-x-1/2 w-1 bg-white shadow-[0_0_16px_4px_#fff] top-0 bottom-0" />
 
         {/* Timeline items */}
         {slides.map((slide, i) => {
@@ -332,11 +336,11 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
             <div key={i} className="relative flex items-center justify-center w-full mb-6 md:mb-8">
               {/* Dot - centered on desktop, left-aligned on mobile */}
               <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-8 md:w-10 h-8 md:h-10 rounded-full bg-white/25 border-4 border-white shadow-[0_4px_32px_0_rgba(255,255,255,0.4),0_0_16px_4px_#ffeb3b] backdrop-blur-md flex items-center justify-center z-10 transition-shadow">
-                <div className="w-[14px] md:w-[18px] h-[14px] md:h-[18px] rounded-full bg-[#ffeb3b] shadow-[0_0_8px_2px_#ffeb3b]" />
+                <div className="w-3.5 md:w-4.5 h-3.5 md:h-4.5 rounded-full bg-[#ffeb3b] shadow-[0_0_8px_2px_#ffeb3b]" />
               </div>
 
               {/* Content - single column on mobile, alternating on desktop */}
-              <div className={`flex w-full md:w-1/2 ${isLeft ? 'md:justify-end md:pr-[60px] md:mr-auto' : 'md:justify-start md:pl-[60px] md:ml-auto'} pl-16 md:pl-0`}>
+              <div className={`flex w-full md:w-1/2 ${isLeft ? 'md:justify-end md:pr-15 md:mr-auto' : 'md:justify-start md:pl-15 md:ml-auto'} pl-16 md:pl-0`}>
                 <TimelineBlurb
                   images={slide.images}
                   blurb={slide.blurb}
