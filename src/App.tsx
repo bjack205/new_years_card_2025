@@ -82,10 +82,19 @@ function SlideDialog({
 }: { 
   isOpen: boolean; 
   onClose: () => void; 
-  images: string[]; 
+  images: Array<{ src: string; caption: string }>; 
   date: string; 
   blurb: string; 
 }) {
+  const [currentImageIndex, setCurrentImageIndex] = React.useState(0);
+
+  // Reset to first image when modal opens
+  React.useEffect(() => {
+    if (isOpen) {
+      setCurrentImageIndex(0);
+    }
+  }, [isOpen]);
+
   function formatMonthYear(dateStr: string) {
     if (!dateStr) return '';
     const [year, month] = dateStr.split('-');
@@ -93,7 +102,20 @@ function SlideDialog({
     return date.toLocaleString('default', { month: 'long', year: 'numeric' });
   }
 
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
   if (!isOpen) return null;
+
+  const currentImage = images[currentImageIndex];
+  
+  // Safety check: ensure we have a valid current image
+  if (!currentImage || !images.length) return null;
 
   return (
     <div 
@@ -101,7 +123,7 @@ function SlideDialog({
       onClick={onClose}
     >
       <div 
-        className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl p-4 md:p-6 w-full max-w-sm md:max-w-2xl max-h-[90vh] md:max-h-[80vh] overflow-y-auto shadow-2xl relative"
+        className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl p-4 md:p-8 w-full max-w-md md:max-w-5xl h-fit max-h-[90vh] shadow-2xl relative"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -122,17 +144,59 @@ function SlideDialog({
           {blurb}
         </p>
         
-        {/* All images */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-          {images.map((imgSrc, idx) => (
+        {/* Image carousel */}
+        <div className="relative">
+          {/* Main image */}
+          <div className="flex justify-center mb-3">
             <img
-              key={idx}
-              src={imgSrc}
-              alt={`Image ${idx + 1}`}
-              className="w-full h-auto rounded-lg shadow-lg object-cover"
-              style={{ maxHeight: '250px' }}
+              src={currentImage.src}
+              alt={`Image ${currentImageIndex + 1}`}
+              className="max-w-full max-h-[450px] rounded-lg shadow-lg object-contain"
             />
-          ))}
+          </div>
+          
+          {/* Image caption */}
+          <p className="text-white/80 text-xs md:text-sm italic text-center mb-4 px-2">
+            {currentImage.caption}
+          </p>
+
+          {/* Navigation arrows - only show if more than 1 image */}
+          {images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-2xl md:text-3xl font-bold bg-black/30 rounded-full w-10 h-10 flex items-center justify-center"
+              >
+                ‹
+              </button>
+              <button
+                onClick={nextImage}
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 text-2xl md:text-3xl font-bold bg-black/30 rounded-full w-10 h-10 flex items-center justify-center"
+              >
+                ›
+              </button>
+            </>
+          )}
+
+          {/* Image counter and dots indicator */}
+          {images.length > 1 && (
+            <div className="flex justify-center items-center space-x-2 mt-3">
+              <span className="text-white/60 text-xs">
+                {currentImageIndex + 1} / {images.length}
+              </span>
+              <div className="flex space-x-1">
+                {images.map((_, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => setCurrentImageIndex(idx)}
+                    className={`w-2 h-2 rounded-full ${
+                      idx === currentImageIndex ? 'bg-white' : 'bg-white/30'
+                    }`}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -147,7 +211,7 @@ function TimelineBlurb({
   align,
   onClick
 }: {
-  images: string[];
+  images: Array<{ src: string; caption: string }>;
   date: string;
   blurb: string;
   align: 'left' | 'right';
@@ -167,7 +231,7 @@ function TimelineBlurb({
       onClick={onClick}
     >
       <img
-        src={images[0]}
+        src={images[0].src}
         alt={`Slide 1`}
         className="w-20 md:w-25 h-20 md:h-25 rounded-sm object-center object-cover shrink-0"
         style={{  boxShadow: '0 2px 12px rgba(0,0,0,0.12)'}}
@@ -205,8 +269,8 @@ function TimelineBlurb({
 }
 
 // ChristmasCarousel: handles 20 slides, each with photo and blurb
-function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; blurb: string; date: string; }[], onScroll?: (scrollTop: number) => void }) {
-  const [selectedSlide, setSelectedSlide] = React.useState<{ images: string[]; blurb: string; date: string; } | null>(null);
+function ChristmasCarousel({ slides, onScroll }: { slides: { images: Array<{ src: string; caption: string }>; blurb: string; date: string; }[], onScroll?: (scrollTop: number) => void }) {
+  const [selectedSlide, setSelectedSlide] = React.useState<{ images: Array<{ src: string; caption: string }>; blurb: string; date: string; } | null>(null);
   
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     if (onScroll) {
@@ -214,7 +278,7 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
     }
   };
 
-  const handleSlideClick = (slide: { images: string[]; blurb: string; date: string; }) => {
+  const handleSlideClick = (slide: { images: Array<{ src: string; caption: string }>; blurb: string; date: string; }) => {
     setSelectedSlide(slide);
   };
 
@@ -242,6 +306,7 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
           <section className="mb-4 md:mb-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-full px-4 md:px-6 py-3 md:py-4">
             <h2 className="text-white font-semibold text-base md:text-lg mb-4">Our Year in Summary</h2>
             <div className="space-y-4 text-white/90 leading-relaxed text-sm md:text-base">
+              <img src="photos/pittsburgh-dinner.jpg" alt="Alyssa and Brian in Pittsburgh" className="w-full h-auto max-h-[500px] rounded-lg shadow-lg object-cover object-center mb-4" />
               <p>
                 Dear friends and family. Sorry we haven't sent out an update for 4 years. Turns out a lot has happened since 2021! We've included lots of photos and juicy details for anyone with time to kill (looking at you Grandma) but will keep it short and sweet here.
               </p>
@@ -285,10 +350,6 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
                     <p className="font-medium">Q: Do you want to have children?</p>
                     <p className="text-white/80">A: Maybe.</p>
                   </div>
-                  <div>
-                    <p className="font-medium">Q: Why haven't you had kids yet?</p>
-                    <p className="text-white/80">A: Not your business.</p>
-                  </div>
                 </div>
               </div>
               
@@ -302,10 +363,6 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: string[]; b
                   <div>
                     <p className="font-medium">Q: What type of dog is Tolkien?</p>
                     <p className="text-white/80">A: Nova Scotia Duck Tolling Retriever</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Q: Is that a real breed?</p>
-                    <p className="text-white/80">A: Yes</p>
                   </div>
                   <div>
                     <p className="font-medium">Q: Favorite place you've visited in the last 4 years?</p>
