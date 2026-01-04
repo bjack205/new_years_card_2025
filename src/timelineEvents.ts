@@ -29,8 +29,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
     date: "2022-10", blurb: "'High Peaks of Pain.' Brian did a late-season backpacking trip with some good friends, and severely underestimated the Adirondacks, both in beauty and brutality. You try boulder-hopping for 12 hours with a backpack and tell me how you feel afterwards.", images: [
       "photos/2022_10_adirondacks_02.jpg",
       "photos/2022_10_adirondacks_04.jpg",
-      "photos/2022_10_adirondacks.jpg",
-      "photos/2022_10_adirondacks_04.JPG"
+      "photos/2022_10_adirondacks.jpg"
     ]
   },
   {
@@ -154,7 +153,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
     ]
   },
   {
-    date: "2024-05", blurb: "We flew down to Miami to celebrate Ben's (Brian's brother) graduation from dental school.", images: [
+    date: "2025-05", blurb: "We flew down to Miami to celebrate Ben's (Brian's brother) graduation from dental school.", images: [
       "photos/2025_05_ben_graduation_02.JPG",
       "photos/2025_05_ben_graduation_01.JPG"
     ]
