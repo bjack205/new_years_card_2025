@@ -123,7 +123,7 @@ function SlideDialog({
       onClick={onClose}
     >
       <div 
-        className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl p-4 md:p-8 w-full max-w-md md:max-w-5xl h-fit max-h-[90vh] shadow-2xl relative"
+        className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl p-4 md:p-8 w-full max-w-md md:max-w-5xl max-h-[95vh] overflow-y-auto shadow-2xl relative"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -151,7 +151,7 @@ function SlideDialog({
             <img
               src={currentImage.src}
               alt={`Image ${currentImageIndex + 1}`}
-              className="max-w-full max-h-[450px] rounded-lg shadow-lg object-contain"
+              className="max-w-full max-h-[250px] md:max-h-[450px] rounded-lg shadow-lg object-contain"
             />
           </div>
           
