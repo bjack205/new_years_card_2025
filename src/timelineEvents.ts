@@ -5,7 +5,7 @@ export const timelineEvents = [
     {
     date: "2022-06", blurb: `We celebrated our 4th wedding anniversary in the Poconos.
 We stayed in Skytop Lodge, which offered a unique combination of old-style luxury and adventure. We did a high ropes course, kayaking, and mountain biking---we came within 30 feet of a black bear!`, images: [
-      { src: "photos/2022_06_anniversary_01.jpg", caption: "Us happy to get away from River for the weekend (kidding, we love that girl and miss her every time we leave)" }
+      { src: "photos/2022_06_anniversary_01.jpg", caption: "Us happy to get away from River for the weekend (kidding, we love that girl and miss her every time we leave).." }
     ]
   },
   {
@@ -16,7 +16,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
   },
   {
     date: "2022-07", blurb: "4th of July on the water in Pittsburgh. It was our first time kayaking out to 'The Point' where they launch off the fireworks. Paddling back in the dark battling the chop from all the boats made it extra 'Brian fun,' less 'Alyssa fun.'", images: [
-      { src: "photos/2022_07_1st_time_doing_4th_of_july_fir_01.jpg", caption: "Nothing quite beats the view of sitting 200 ft away from where they're launch off the fireworks." }
+      { src: "photos/2022_07_1st_time_doing_4th_of_july_fir_01.jpg", caption: "Nothing quite beats the view of sitting 200 ft away from where they're launching off the fireworks." }
     ]
   },
   {
@@ -34,7 +34,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
   },
   {
     date: "2022-12", blurb: "New Zealand! We spend 2 weeks in New Zealand, road-tripping around both islands. It was Brian's last conference trip for his PhD, so we made the most of it and celebrated the end of an era. It's the only time we've visited a place and felt like we were born in the wrong country. To say it left an impression is an understatement.", images: [
-      { src: "photos/2022_12_new_zealand_05.jpg", caption: "After landing in the morning, we got our rental and drove out to Cormandel, where we hiking up to a hostel-style hut in the mountains." },
+      { src: "photos/2022_12_new_zealand_05.jpg", caption: "After landing in the morning, we got our rental and drove out to Cormandel, where we hiked up to a hostel-style hut in the mountains." },
       { src: "photos/2022_12_new_zealand_04.jpg", caption: "Brian attempted to catch the sunrise in Cormandel, but the clouds had other ideas." },
       { src: "photos/2022_12_new_zealand_06.jpg", caption: "Hiking in New Zealand is just better. Beautiful views, well-maintained steel ladders to climb, and excellent bathrooms." },
       { src: "photos/2022_12_new_zealand_12.jpg", caption: "Sunset in Cormandel. Brian trying to be a landscape photographer." },
@@ -50,7 +50,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
     ]
   },
   {
-    date: "2023-02", blurb: "We stayed for 3 weeks in Miami, FL. Mostly to escape the dreary Pittsburgh winter, but also to see Ben, Victoria, and Leilani (Brian's first niece on the Jackson side). We got to visit Everglades and Biscayne Bay. River managed to not get eaten by a 'gator.", images: [
+    date: "2023-02", blurb: "We stayed for 3 weeks in Miami, FL. Mostly to escape the dreary Pittsburgh winter, but also to see Ben, Victoria, and Leilani (Brian's first niece on the Jackson side). We got to visit Everglades and Biscayne Bay National Parks. River managed to not get eaten by a 'gator.", images: [
       { src: "photos/2023_02_miami_01.jpg", caption: "River posing dramatically in the Everglades." },
       { src: "photos/2023_02_miami_03.jpg", caption: "River looking for Brian after he left the hotel room to bike to a WeWork for the day." },
       { src: "photos/2023_02_miami_04.jpg", caption: "Uncle Brian trying to be a good Uncle, mostly by not dropping the baby in the ocean." }
@@ -75,7 +75,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
       { src: "photos/2023_06_rome_02.jpg", caption: "Almafi Coast. Probably our favorite day of the trip. We didn't have anything planned so walked around, and ended up finding a \"Path of the Lemons\" trail that took us high up the cliffs between two towns, winding through all the lemon groves." },
       { src: "photos/2023_06_rome_03.jpg", caption: "Trevi Fountain. Nbd." },
       { src: "photos/2023_06_rome_04.jpg", caption: "On this trip we solidified that one of Alyssa's all-time favorite things is a European-style breakfast." },
-      { src: "photos/2023_06_rome_05.jpg", caption: "Brian and Colosseum. This was actually part of the work trip before Alyssa arrived." },
+      { src: "photos/2023_06_rome_05.jpg", caption: "Brian and the Colosseum. This was actually part of the work trip before Alyssa arrived." },
       { src: "photos/2023_06_rome_06.jpg", caption: "Breakfast in Brussels, Belgium." },
       { src: "photos/2023_06_rome_07.jpg", caption: "The Roman Pantheon. In Brian's opinion, one of the most captivating moments of the trip. It's hard to describe the feeling associated with realizing you're standing among 2000+ years of human history." },
       { src: "photos/2023_06_rome_08.jpg", caption: "More Trevi. Still nbd." },
@@ -100,12 +100,12 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
     ]
   },
   {
-    date: "2023-11", blurb: "We drove out to Tucson for Thanksgiving, stopping in Denver for a week so Brian could work on spinny space hardware stuff. While in Tucson, he checked off two goals for this 30s: ride a century, and compete in a bike race. We got to enjoy time with Alyssa's family and the beautiful desert winter weather.", images: [
+    date: "2023-11", blurb: "We drove out to Tucson for Thanksgiving, stopping in Denver for a week so Brian could work on spinny space hardware stuff. While in Tucson, he checked off two goals for his 30s: ride a century, and compete in a bike race. We got to enjoy time with Alyssa's family and the beautiful desert winter weather.", images: [
       { src: "photos/2023_11_tour_de_tucson_01.jpg", caption: "Fun fact: the Tour de Tucson is one of the largest road bike events in the United States, with about 10,000 riders." }
     ]
   },
   {
-    date: "2024-02", blurb: "Las Vegas again! This time we upgraded in the Cosmo. Again had a great time with Tara and Evan!", images: [
+    date: "2024-02", blurb: "Las Vegas again! This time we upgraded to the Cosmo. Again had a great time with Tara and Evan!", images: [
       { src: "photos/2024_02_las_vegas_01.jpg", caption: "Sharks in the desert. Of course." },
       { src: "photos/2024_02_las_vegas_02.jpg", caption: "Despite having very low expectations the first time, Brian has reluctantly agreed that Vegas is actually kinda fun." }
     ]
@@ -124,7 +124,7 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
       { src: "photos/2024_06_dolomites_05.jpg", caption: "Hike? Or take a scenic gondola ride to the top? A younger Brian would have scoffed at the idea of taking the gondola. But an older, married, Brian thinks the gondola is a great idea. It is vacation, after all." },
       { src: "photos/2024_06_dolomites_06.jpg", caption: "This trip was also a piggy-back off another work trip. Brian got to visit Paris for the first time while visiting a supplier for some high-end space hardware." },
       { src: "photos/2024_06_dolomites_07.jpg", caption: "When we showed up, the weather showed rain and thunderstorms every day. Fortunately this was pessimistic, although we did have to change plans a few times between the rain and the late-season snow." },
-      { src: "photos/2024_06_dolomites_08.jpg", caption: "Did Brian wear the same shirt ever day? Maybe. But you don't have many options when living out of a 22L pack for 6 days." },
+      { src: "photos/2024_06_dolomites_08.jpg", caption: "Did Brian wear the same shirt every day? Maybe. But you don't have many options when living out of a 22L pack for 6 days." },
       { src: "photos/2024_06_dolomites_09.jpg", caption: "Probably some of the best food we've ever had. Add in the fact you're eating it in the middle of majestic mountains. Heaven." },
       { src: "photos/2024_06_dolomites_10.jpg", caption: "Fun fact: the Dolomites cross the border of Tyrol, an independent German-speaking province of Italy that used to be part of the Austro-Hungarian Empire prior to WWI. So we started the hike in a quaint German-esque town, and saying \"danke\" over a plate of dumplings, and ended the hike saying \"grazie\" over pasta. The blend of the two cultures is just one of the things that makes this area so unique." },
       { src: "photos/2024_07_venice_01.jpg", caption: "We ended our trip in Venice. Which was cool, but underwhelming after what were seriously some of the best vacation days we've ever had." }
@@ -174,14 +174,14 @@ We stayed in Skytop Lodge, which offered a unique combination of old-style luxur
     ]
   },
   {
-    date: "2025-08", blurb: "After an embarassingly long time of living on the East Coast without visiting the Big Apple, we finally made it to New York City! We skipped Vegas the year and did an East Coast vacation with Tara and Evan to mix it up.", images: [
+    date: "2025-08", blurb: "After an embarassingly long time of living on the East Coast without visiting the Big Apple, we finally made it to New York City! We skipped Vegas ths year and did an East Coast vacation with Tara and Evan to mix it up.", images: [
       { src: "photos/2025_08_ny_01.JPG", caption: "We're weird. It's fine." },
       { src: "photos/2025_08_ny_02.JPG", caption: "Again, not claiming to be normal people." },
       { src: "photos/2025_08_ny_03.JPG", caption: "A failed attempt at being semi-normal." }
     ]
   },
   {
-    date: "2025-09", blurb: "One of Brian's primary focuses for 2025 was training with Tolkien to do search and rescue (finding lost people in the woods). They're almost certified (it usually takes about 1.5-2 years), and Tolkien absolutely loves it, and is a natural at it. We went as a family to 3-day seminar where our dog-training nerdiness was on full display. Alyssa says this was her favorite weekend of the year.", images: [
+    date: "2025-09", blurb: "One of Brian's primary focuses for 2025 was training with Tolkien to do search and rescue (finding lost people in the woods). They're almost certified (it usually takes about 1.5-2 years), and Tolkien absolutely loves it, and is a natural at it. We went as a family to a 3-day seminar where our dog-training nerdiness was on full display. Alyssa says this was her favorite weekend of the year.", images: [
       { src: "photos/2025_09_sar_seminar_01.jpg", caption: "A rare action shot of Tolkien working with Brian. Tolkien is absolutely obsessed with fetch and works for hours just to play for a few minutes at the end of a search." }
     ]
   },
