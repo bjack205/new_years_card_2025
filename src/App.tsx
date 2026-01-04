@@ -298,9 +298,9 @@ function ChristmasCarousel({ slides, onScroll }: { slides: { images: Array<{ src
       <div className="w-full h-screen overflow-y-auto" onScroll={handleScroll}>
         {/* Header Section */}
         <div className="relative flex flex-col items-center justify-center py-8 md:py-12 px-4 md:px-6 max-w-6xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[72px] font-bold text-white text-center mb-6 md:mb-8 tracking-wide leading-tight great-vibes-regular">
+          <h1 className="text-[42px] sm:text-[52px] lg:text-[72px] font-bold text-white text-center mb-6 md:mb-8 tracking-wide leading-tight great-vibes-regular">
             Happy New Year!
-            <span className="block text-white-400 mt-2 text-[18px] uppercase font-bold tracking-wider font-sans">from Alyssa & Brian</span>
+            <span className="block text-white-400 mt-2 text-[16px] lg:text-[18px] uppercase font-bold tracking-wider font-sans">from Alyssa & Brian</span>
           </h1>
           
           <section className="mb-4 md:mb-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-full px-4 md:px-6 py-3 md:py-4">
